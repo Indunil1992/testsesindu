@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "testsesindu.js",
         "cursor": {
-          "lineNumber": 17,
-          "column": 40
+          "lineNumber": 5,
+          "column": 2
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -21,7 +21,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusEast1TestAPInewchangetestany",
+            "config": {}
+          }
+        ]
       }
     },
     "openFiles": [
@@ -35,6 +40,89 @@
         "config": {
           "selectedIdentity": "indunil@adroitlogic.com",
           "projectRegion": "us-east-1"
+        }
+      },
+      "apigusEast1sachithraAPInameindunilqasnsget": {
+        "name": "apigusEast1sachithraAPInameindunilqasnsget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/sns",
+          "resourcePath": "/indunil/qa/sns",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test112",
+          "stageDeploymentId": "rj4kyh",
+          "mode": 1
+        }
+      },
+      "apigusEast1sachithraAPInameindunilqasnspost": {
+        "name": "apigusEast1sachithraAPInameindunilqasnspost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/sns",
+          "resourcePath": "/indunil/qa/sns",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test112d",
+          "mode": 1
+        }
+      },
+      "apigusEast1TestAPInewchangetestany": {
+        "name": "apigusEast1TestAPInewchangetestany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/MyLambda": "98nqbj",
+            "/testdbput": "bu1jy0",
+            "/": "h2lelj6j7k",
+            "/newchange/test": "k6pdhn",
+            "/newchange": "q1ox7l",
+            "/testWithSlash": "q4m4g1",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/newchange/test",
+          "resourceName": "newchange/test",
+          "resourceId": "k6pdhn",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test56",
+          "mode": 1
         }
       }
     },
@@ -72,7 +160,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585556673504
+    "lastSave": 1585557195001
   },
   "VCS_STATE": {
     "provider": "GitHub",
